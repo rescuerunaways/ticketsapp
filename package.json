@@ -1,16 +1,17 @@
 {
-    "name": "ticketsapp",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "test": "mocha  --reporter spec --bail  test/"
-    },
-    "author": "Tatiana",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.15.2",
-        "chai": "*",
-        "mocha": "*"
-    }
+  "name": "ticketsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha  --reporter spec --bail  test/"
+  },
+  "author": "Tatiana",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "*",
+    "express": "^4.15.2",
+    "mocha": "*",
+    "request": "^2.81.0"
+  }
 }
