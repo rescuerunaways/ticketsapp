@@ -1,0 +1,16 @@
+{
+    "name": "ticketsapp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "mocha  --reporter spec --bail  test/"
+    },
+    "author": "Tatiana",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.15.2",
+        "chai": "*",
+        "mocha": "*"
+    }
+}
